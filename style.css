@@ -7,9 +7,18 @@
     text-align: center;
 }
 
-header {
+.container {
     display: flex;
+}
+
+
+header {  
     max-height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
 }
 
 #logo {
@@ -20,4 +29,11 @@ header {
 li {
     display: inline;
     text-decoration: underline;
+    padding-right: 10px;
+}
+
+#mission .container {
+    background-image: url("Media/img-mission-background.jpg");
+    max-height: 700px;
+    width: 100%;
 }
