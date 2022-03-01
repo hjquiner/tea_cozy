@@ -11,6 +11,7 @@ header {
     z-index: 1;
     opacity: 1;
     height: 69px;
+    top: 0;
     border-bottom: 1px solid seashell;
     width: 100%;
     display: flex;
@@ -67,3 +68,32 @@ main {
     padding: 0.5%;
     margin: 0;
 }
+
+#month {
+    display: flex;
+    flex-flow: column;
+    max-width: 1000px;
+}
+
+
+#teatypes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#teatypes img {
+    max-width: 300px;
+    max-height: 200px;
+    margin: 10px;
+}
+
+.imgbox {
+    display: flex;
+    flex-flow: column;
+}
+
+.imgbox h4 {
+    margin-top: 10px;
+}
+
