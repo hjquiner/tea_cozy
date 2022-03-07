@@ -97,3 +97,35 @@ main {
     margin-top: 10px;
 }
 
+
+.locations {
+    display: flex;
+    flex-flow: column;
+    height: 500px;
+    width: 1200px;
+    max-width: 90%;
+    background-image: url(Media/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#lochead h2{
+    background: none;
+}
+
+#locationrow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.locbox {
+    display: flex;
+    flex-flow: column;
+    padding: 20px 15px;
+    width: 300px;
+}
+
+
