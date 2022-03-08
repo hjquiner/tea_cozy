@@ -118,14 +118,28 @@ main {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    background: none;
     
 }
 
 .locbox {
     display: flex;
     flex-flow: column;
-    padding: 20px 15px;
+    margin: 20px 15px;
     width: 300px;
 }
 
+p {
+    font-size: 22px;
+}
 
+footer {
+    display: flex;
+    flex-flow: column;
+}
+
+#copyright {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
